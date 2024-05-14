@@ -1,0 +1,1117 @@
+body{
+ max-width: 100%;
+    height: 100vh;
+    margin: auto;
+    padding: 0;
+   overflow-x: hidden;
+}
+header{
+  width: 100%;
+   margin: auto;
+    height: 65px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+   position: fixed;
+   box-shadow: inset 0 0 5px rgb(51, 50, 50);
+
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 4px;
+    background-color: rgb(5, 235, 252);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+h4{
+    color: rgb(255, 255, 255);
+   padding-left: 6px;
+   font-weight: bolder;
+   font-size: 1.3rem;
+}
+
+b{
+    padding-left: 7px;
+}
+.menuber{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 21px;
+    
+}
+.menuber li {
+    display: flex;
+    text-decoration: none;
+}
+.menuber li a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: .3s;
+ 
+}
+li a:hover{
+   font-weight: bolder;
+color: rgb(0, 255, 55);  
+}
+.serch{
+    display: flex;
+    width: 300px;
+    height: 35px;
+    margin-right: 60px;
+  
+    align-items: center;
+    margin-top: 14px;
+    border-radius: 7px;
+}
+.serch input{
+     width: 200px;
+     height: 30px;
+     border: none;
+     border-radius: 7px;
+     margin-left: 30px;
+     
+}
+.serch input[type="search"]{
+   color: rgb(7, 0, 0);
+   font-family: sans-serif;
+   font-size: 15px;
+}
+.serch button {
+ background: transparent;
+    border: none;
+}
+.serch button a:hover{
+ 
+    width: 10%;
+
+}
+.serch button a img{
+    transition: .2s;
+    border-bottom-right-radius: 8px;
+    width: 25px;
+    margin-top: 4px;
+}
+.serch button a img:hover{
+    width: 30px;
+}
+.container{
+
+  width: 100%;
+  min-width: 300px;
+  height: 88vh;
+  padding-top: 75px;
+  background-color: bisque;
+  
+}
+.text{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height: 50px;
+    padding-bottom: 8px;
+    
+    font-weight: bold;
+   color: rgb(233, 1, 1);
+   text-shadow: 0 0 7px rgb(6, 248, 6),
+   0 0 7px green,
+   0 0 7px rgb(13, 238, 13);
+}
+.main{
+    width: 100%;
+   
+    height: 40vh;
+display: flex;
+justify-content: center;
+padding-top: 20px;
+
+
+
+}
+.rangpur .one{
+    margin-top: 30px;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: end;
+    border-radius: 20px;
+    transition: .5s;
+    margin-right:2px ;
+    background-color: rgb(33, 34, 34);
+}
+.rangpur .one::before{
+    content: "RANGPUR";
+    
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    background-color: rgb(55, 56, 56);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    transition: .5s;
+}
+.rangpur .one:hover:before{
+    width: 300px;
+    height: 200px;
+    opacity: 0;
+}
+.rangpur .two{
+    width: 50px;
+    height: 50px;
+   background-color: rgb(0, 255, 76);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 100%;
+    transition: .7s;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+  overflow: hidden;
+  z-index: 1;
+  
+}
+.rangpur .one:hover .two{
+    background-color: rgb(0, 255, 76);
+    width: 300px;
+    height: 200px;
+    bottom: 0;
+    border-radius: 20px;
+    
+    
+}
+.rangpur .img5 img{
+    width: 250px;
+    height:140px;
+    
+    border-radius:10px ;
+   
+  
+}
+.rangpur .img5{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    opacity: 0;
+    transition: .5s;
+   
+}
+.rangpur .one:hover .two .img5{
+    opacity: 1;
+}
+.rangpur{
+    display: flex;
+    text-decoration: none;
+}
+
+.rangpur .two p{
+    display: flex;
+    color: black;
+    font-size: 1.6rem;
+    width: 100px;
+    font-weight: bold;
+
+    margin-left: 90px;
+    margin-bottom: 30px;
+  
+}
+.rangpur .one:hover .two p{
+    opacity: 1;
+}
+.rangpur .one:hover {
+    
+    width: 300px;
+    height: 200px;
+}
+
+.rajsahi .one{
+    width: 150px;
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    border-radius: 20px;
+    transition: .5s;
+    margin-right:2px ;
+    background-color: rgb(33, 34, 34);
+}
+.rajsahi .one::before{
+    content: "RAJSHAHI";
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    background-color: rgb(55, 56, 56);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    transition: .5s;
+}
+.rajsahi .one:hover:before{
+    width: 300px;
+    height: 200px;
+    opacity: 0;
+}
+.rajsahi .two{
+    width: 50px;
+    height: 50px;
+  background-color: rgb(230, 123, 141);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 100%;
+    transition: .7s;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  overflow: hidden;
+  z-index: 1;
+  
+}
+.rajsahi .one:hover .two{
+    background-color: rgb(230, 123, 141);
+    width: 300px;
+    height: 200px;
+    bottom: 0;
+    border-radius: 20px;
+    opacity: 1;
+    
+}
+
+.rajsahi .img5 img{
+    width: 250px;
+    height:140px;
+    
+    border-radius:10px ;
+   
+  
+}
+.rajsahi .img5{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    opacity: 0;
+    transition: .5s;
+   
+}
+.rajsahi .one:hover .two .img5{
+    opacity: 1;
+}
+.rajsahi{
+    display: flex;
+    text-decoration: none;
+}
+
+.rajsahi .two p{
+    display: flex;
+    color: black;
+    font-size: 1.6rem;
+    width: 100px;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-bottom: 30px;
+  
+}
+.rajsahi .one:hover .two p{
+    opacity: 1;
+}
+.rajsahi .one:hover {
+    
+    width: 300px;
+    height: 200px;
+}
+.mymenshing .one{
+    width: 150px;
+    margin-top: 10px;
+    height: 200px;
+    display: flex;
+    justify-content: end;
+    border-radius: 20px;
+    transition: .5s;
+    margin-right:2px ;
+    background-color: rgb(33, 34, 34);
+}
+.mymenshing .one::before{
+    content: "MYMENSHING";
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    background-color: rgb(55, 56, 56);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    transition: .5s;
+}
+.mymenshing .one:hover:before{
+    width: 300px;
+    height: 200px;
+    opacity: 0;
+}
+.mymenshing .two{
+    width: 50px;
+    height: 50px;
+background-color: rgb(5, 235, 252);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 100%;
+    transition: .7s;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  overflow: hidden;
+  z-index: 1;
+  
+}
+.mymenshing .one:hover .two{
+    background-color: rgb(5, 235, 252);
+    width: 300px;
+    height: 200px;
+    bottom: 0;
+    border-radius: 20px;
+}    
+.mymenshing .img5 img{
+    width: 250px;
+    height:140px;
+    
+    border-radius:10px ;
+}
+  .mymenshing .img5{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    opacity: 0;
+    transition: .5s;
+   
+}
+.mymenshing .one:hover .two .img5{
+    opacity: 1;
+}
+.mymenshing{
+    display: flex;
+    text-decoration: none;
+}
+
+.mymenshing .two p{
+    display: flex;
+    color: black;
+    font-size: 1.6rem;
+    width: 100px;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-bottom: 30px;
+  opacity: 0;
+}
+.mymenshing .one:hover .two p{
+    opacity: 1;
+}
+.mymenshing .one:hover {
+    
+    width: 300px;
+    height: 200px;
+}
+
+.sylhet .one{
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: end;
+    border-radius: 20px;
+    transition: .5s;
+    margin-right:2px ;
+    background-color: rgb(33, 34, 34);
+}
+.sylhet .one::before{
+    content: "SYLHET";
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    background-color: rgb(55, 56, 56);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    transition: .5s;
+}
+.sylhet .one:hover:before{
+    width: 300px;
+    height: 200px;
+    opacity: 0;
+}
+.sylhet .two{
+    width: 50px;
+    height: 50px;
+background-color: rgb(255, 0, 0);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 100%;
+    transition: .7s;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  overflow: hidden;
+  z-index: 1;
+  
+}
+.sylhet .one:hover .two{
+    background-color: rgb(255, 0, 0);
+    width: 300px;
+    height: 200px;
+    bottom: 0;
+    border-radius: 20px;
+    
+    
+}
+.sylhet .img5 img{
+    width: 250px;
+    height:140px;
+    
+    border-radius:10px ;
+   
+  
+}
+.sylhet .img5{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    opacity: 0;
+    transition: .5s;
+   
+}
+.sylhet .one:hover .two .img5{
+    opacity: 1;
+}
+.sylhet{
+    display: flex;
+    text-decoration: none;
+}
+
+.sylhet .two p{
+    display: flex;
+    color: black;
+    font-size: 1.6rem;
+    width: 100px;
+    font-weight: bold;
+
+    margin-left: 90px;
+    margin-bottom: 30px;
+    opacity: 0;
+  
+}
+.sylhet .one:hover .two p{
+    opacity: 1;
+}
+.sylhet .one:hover {
+    
+    width: 300px;
+    height: 200px;
+}
+
+
+.dhaka .one{
+    width: 150px;
+    height: 200px;
+    margin-right: 2px;
+    display: flex;
+    justify-content: end;
+    border-radius: 20px;
+    transition: .5s;
+    background-color: rgb(33, 34, 34);
+}
+.dhaka .one::before{
+    content: "DHAKA";
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    background-color: rgb(55, 56, 56);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    transition: .5s;
+}
+.dhaka .one:hover:before{
+    width: 300px;
+    height: 200px;
+    opacity: 0;
+}
+.dhaka .two{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(247, 100, 2);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 100%;
+    transition: .7s;
+    display: grid ;
+    justify-content: center;
+    align-items: center;
+  overflow: hidden;
+  z-index: 1;
+  
+}
+.dhaka .one:hover .two{
+    background-color: rgb(255, 115, 0);
+    width: 300px;
+    height: 200px;
+    bottom: 0;
+    border-radius: 20px;
+    
+    
+}
+.dhaka .img5 img{
+    width: 250px;
+    height:140px;
+    
+    border-radius:10px ;
+   
+  
+}
+.dhaka .img5{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    opacity: 0;
+    transition: .5s;
+   
+}
+.dhaka .one:hover .two .img5{
+    opacity: 1;
+}
+.dhaka{
+    display: flex;
+    text-decoration: none;
+}
+
+.dhaka .two p{
+    display: flex;
+    color: black;
+    font-size: 1.6rem;
+    width: 100px;
+    font-weight: bold;
+
+    margin-left: 90px;
+    margin-bottom: 30px;
+  
+}
+.dhaka .one:hover .two p{
+    opacity: 1;
+    
+}
+
+.dhaka .one:hover {
+    
+    width: 300px;
+    height: 200px;
+}
+.chattogram .one{
+    width: 150px;
+    height: 200px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: end;
+    border-radius: 20px;
+    transition: .5s;
+    margin-right:2px ;
+    background-color: rgb(33, 34, 34);
+}
+.chattogram .one::before{
+    content: "CHATTOGRAM";
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    background-color: rgb(55, 56, 56);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    transition: .5s;
+}
+.chattogram .one:hover:before{
+    width: 300px;
+    height: 200px;
+    opacity: 0;
+}
+.chattogram .two{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(42, 95, 253);
+
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 100%;
+    transition: .7s;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  overflow: hidden;
+  z-index: 1;
+  
+}
+.chattogram .one:hover .two{
+    background-color: rgb(0, 68, 255);
+    width: 300px;
+    height: 200px;
+    bottom: 0;
+    border-radius: 20px;
+    
+    
+}
+.chattogram .img5 img{
+    width: 250px;
+    height:140px;
+    
+    border-radius:10px ;
+   
+  
+}
+.chattogram .img5{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    opacity: 0;
+    transition: .5s;
+   
+}
+.chattogram .one:hover .two .img5{
+    opacity: 1;
+}
+.chattogram{
+    display: flex;
+    text-decoration: none;
+}
+
+.chattogram .two p{
+    display: flex;
+    color: black;
+    font-size: 1.6rem;
+    width: 100px;
+    font-weight: bold;
+
+    margin-left: 70px;
+    margin-bottom: 30px;
+  opacity: 0;
+}
+.chattogram .one:hover .two p{
+    opacity: 1;
+}
+.chattogram .one:hover {
+    
+    width: 300px;
+    height: 200px;
+}
+
+
+.barishal .one{
+    width: 150px;
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    border-radius: 20px;
+    transition: .5s;
+    margin-right:2px ;
+    background-color: rgb(33, 34, 34);
+}
+.barishal .one::before{
+    content: "BARISHAL";
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    background-color: rgb(55, 56, 56);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    transition: .5s;
+}
+.barishal .one:hover:before{
+    width: 300px;
+    height: 200px;
+    opacity: 0;
+}
+.barishal .two{
+    width: 50px;
+    background-color: rgb(30, 255, 0);
+
+    height: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 100%;
+    transition: .7s;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  overflow: hidden;
+  z-index: 1;
+  
+}
+.barishal .one:hover .two{
+    background-color: rgb(82, 255, 2);
+    width: 300px;
+    height: 200px;
+    bottom: 0;
+    border-radius: 20px;
+    
+    
+}
+.barishal .img5 img{
+    width: 250px;
+    height:140px;
+    
+    border-radius:10px ;
+   
+  
+}
+.barishal .img5{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    opacity: 0;
+    transition: .5s;
+   
+}
+.barishal .one:hover .two .img5{
+    opacity: 1;
+}
+.barishal{
+    display: flex;
+    text-decoration: none;
+}
+
+.barishal .two p{
+    display: flex;
+    color: black;
+    font-size: 1.6rem;
+    width: 100px;
+    font-weight: bold;
+
+    margin-left: 90px;
+    margin-bottom: 30px;
+  opacity: 0;
+}
+.barishal .one:hover .two p{
+    opacity: 1;
+}
+.barishal .one:hover {
+    
+    width: 300px;
+    height: 200px;
+}
+.khulna .one{
+    width: 150px;
+    height: 200px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: end;
+    border-radius: 20px;
+    transition: .5s;
+    margin-right:2px ;
+    background-color: rgb(33, 34, 34);
+}
+.khulna .one::before{
+    content: "KHULNA";
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    background-color: rgb(55, 56, 56);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    transition: .5s;
+}
+.khulna .one:hover:before{
+    width: 300px;
+    height: 200px;
+    opacity: 0;
+}
+.khulna .two{
+    width: 50px;
+    height: 50px;
+   background-color: blueviolet;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 100%;
+    transition: .7s;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  overflow: hidden;
+  z-index: 1;
+  
+}
+.khulna .one:hover .two{
+    background-color: rgb(137, 41, 228);
+    width: 300px;
+    height: 200px;
+    bottom: 0;
+    border-radius: 20px;
+    
+    
+}
+.khulna .img5 img{
+    width: 250px;
+    height:140px;
+    
+    border-radius:10px ;
+   
+  
+}
+.khulna .img5{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    opacity: 0;
+    transition: .5s;
+   
+}
+.khulna .one:hover .two .img5{
+    opacity: 1;
+}
+.khulna{
+    display: flex;
+    text-decoration: none;
+}
+
+.khulna .two p{
+    display: flex;
+    color: black;
+    font-size: 1.6rem;
+    width: 100px;
+    font-weight: bold;
+
+    margin-left: 90px;
+    margin-bottom: 30px;
+  opacity: 0;
+}
+.khulna .one:hover .two p{
+    opacity: 1;
+}
+.khulna .one:hover {
+    
+    width: 300px;
+    height: 200px;
+}
+
+.text1{
+    margin-left: 27%;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.toggle-menu{
+    display: none;
+    color: white;
+}
+.text2{
+    display: none;
+}
+@media screen and (max-width:768px) {
+    header{
+        position: fixed;
+        z-index: 2;
+    }
+    .logo{
+        margin-left: 25px;
+    }
+    .menuber.active {
+           
+        display: flex; /* Show the menu when active */
+    }
+
+    .toggle-menu {
+        display: block; /* Show the toggle button for smaller screens */
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 24px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .menuber {
+        display: none; /* Hide the menu by default for smaller screens */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 40px;
+        right: 10px;
+        width: 80px;
+        
+
+        
+       
+    }
+    .menuber li{
+        margin-top: 0;
+        margin-bottom: 2px;
+        transition: .5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 69px;
+        width: 147px;
+        height: 50px;
+       
+        border-radius: 6px;
+        background-color: rgb(255, 255, 255);
+    }
+    .menuber li:hover{
+        background-color: rgb(58, 235, 22);
+        
+    }
+    .menuber li a{
+        width: 150px;
+        height: 50px;
+        font-weight: bold;
+        color: black;
+    }
+    .menuber li a:hover{
+        color: rgb(0, 0, 0);
+
+    }
+    
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+     
+    }
+    
+    .rangpur .one{
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    .rangpur .one::before{
+        width: 300px;
+    }
+   
+    .rajsahi .one{
+        width: 300px;
+        margin-top: 10px;
+
+    }
+
+    .rajsahi .one::before{
+        width: 300px;
+    }
+    .mymenshing .one{
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    .mymenshing .one::before{
+        width: 300px;
+    }
+    .sylhet .one{
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    .sylhet .one::before{
+        width: 300px;
+    }
+    .dhaka .one{
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    .dhaka .one::before{
+        width: 300px;
+    }
+    .chattogram .one{
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    .chattogram .one::before{
+        width: 300px;
+    }
+    .barishal .one{
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    .barishal .one::before{
+        width: 300px;
+    }
+    .khulna .one{
+        width: 300px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .khulna .one::before{
+        width: 300px;
+        
+    }
+    .text1{
+        display: none;
+    }
+    .text2{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-family: sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .container{
+        height: auto;
+    }
+}

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khulna</title>
+    <link rel="stylesheet" href="khulna.css">
+   
+</head>
+<style>
+    body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+   
+}
+header{
+    width: 100%;
+    height: 65px;
+    background:linear-gradient(160deg,rgb(255, 0, 0),rgb(131, 3, 182)) ;
+    display: flex;
+    justify-content: space-between;
+   position: fixed;
+   z-index: 1;
+
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 4px;
+    background-color: rgb(5, 235, 252);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: transparent;
+    color: black;
+    border-radius: 50%;
+}
+h4{
+    color: rgb(7, 0, 0);
+   padding-left: 6px;
+   font-weight: bolder;
+   font-size: 1.3rem;
+}
+
+b{
+    padding-left: 7px;
+}
+.menuber{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 21px;
+    
+}
+.menuber li {
+    display: flex;
+    text-decoration: none;
+}
+.menuber li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: .3s;
+ 
+}
+li a:hover{
+   font-weight: bolder;
+color: rgb(0, 255, 55);  
+}
+.serch{
+    display: flex;
+    width: 300px;
+    height: 35px;
+    margin-right: 60px;
+  
+    align-items: center;
+    margin-top: 14px;
+    border-radius: 7px;
+}
+.serch input{
+     width: 200px;
+     height: 30px;
+     border: none;
+     border-radius: 7px;
+     margin-left: 30px;
+     
+}
+.serch input[type="search"]{
+   color: rgb(7, 0, 0);
+   font-family: sans-serif;
+   font-size: 15px;
+}
+.serch button {
+ background: transparent;
+    border: none;
+}
+.serch button a:hover{
+ 
+    width: 10%;
+
+}
+.serch button a img{
+    
+    border-radius: 50%;
+    width: 25px;
+    margin-top: 4px;
+}
+.serch button a img:hover{
+    width: 30px;
+}
+.container{
+    animation: container1 3.02s forwards;
+    width:100%;
+    height: auto;
+    padding-top: 80px;
+    display: flex;
+
+    opacity: 0;
+    background: linear-gradient(130deg, lightgreen,white);
+}
+.sun{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: linear-gradient(130deg, rgb(255, 0, 0),rgb(167, 167, 1));
+    margin-left: 120px;
+    position: relative;
+    margin-top: 550px;
+    animation: sun1 3.02s linear forwards;
+    opacity: 0;
+    display: block;
+    position: fixed;
+    
+}
+@keyframes sun1 {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    20%{
+        transform: translateY(-100px);
+        opacity: .1;
+        box-shadow: 0 0 12px rgb(255, 123, 0);
+    }
+    40%{
+        transform: translateY(-200px);
+        opacity: .2;
+        box-shadow: 0 0 20px rgb(255, 123, 0);
+    }
+    60%{
+        transform: translateY(-300px);
+        opacity: .5;
+        box-shadow: 0 0 30px rgb(255, 123, 0);
+    }
+    80%{
+        transform: translateY(-400px);
+        opacity: .8;
+        box-shadow: 0 0 50px rgb(255, 123, 0);
+    }
+    100%{
+        transform: translateY(-530px);
+        opacity: 1;
+        box-shadow: 0 0 100px 20px rgb(255, 123, 0);
+    }
+}
+@keyframes container1{
+    0%{
+        
+        opacity: 0;
+    }
+    20%{
+        
+        opacity: .1;
+        
+    }
+    40%{
+    
+        opacity: .2;
+       
+    }
+    60%{
+      
+        opacity: .5;
+       
+    }
+    80%{
+        
+        opacity: .8;
+      
+    }
+    100%{
+        
+        opacity: 1;
+        
+    }
+} 
+    .map{
+        width: 350px;
+        height: 350px;
+        background: url(kulna-60f5496a53ce0.jpg) no-repeat;
+        background-size:600px;
+        background-position:center;
+        margin-left: 550px;
+       mix-blend-mode:darken;
+        transition: .4s;
+        border-top-left-radius: 30%;
+        border-top-right-radius: 30%;
+        border-bottom-left-radius: 30%;
+        border-bottom-right-radius: 30%;
+    }
+    .map:hover{
+        width: 350px;
+        height: 342px;
+        box-shadow: 0 0 10px rgb(0, 0, 0);
+    }
+    .text{
+        width: 900px;
+        margin-left: 300px;
+        margin-top: 10px;
+    }
+    .text .descript{
+        font-family: sans-serif;
+        font-size: 1.1rem;
+      
+    }
+    .district{
+        width: 400px;
+        height: auto;
+        margin-left: 300px;
+      
+    }
+    .district label{
+        font-size: 1.3rem;
+    }
+    .district ul li{
+        padding: 7px;
+      
+    }
+    .district ul{
+        margin-left: 30px;
+        
+    }
+    .district li a{
+        display: flex;
+        text-decoration:none;
+     transition: .8s;
+        color: black;
+        width: 120px;
+    }
+    .district li a:hover{
+        color: blue;
+        text-decoration: underline 2px solid rgb(12, 27, 240);
+    }
+    .toggle-menu {
+        display: none; /* Hide by default */
+    }
+    @media screen and (max-width: 768px) {
+        header {
+            height: auto;
+            padding: 2px;
+        }
+    
+        .logo {
+            margin-left: 20px;
+        }
+    
+      
+    
+        .menuber li {
+            margin: 10px;
+
+        }
+    
+        .serch {
+            margin: 10px;
+            margin-right: 70px;
+        }
+    
+        .serch input[type="search"] {
+            width: 200px;
+            
+        }
+    
+        .container {
+            flex-direction: column;
+        }
+    
+        .cont2 {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    
+        .text {
+            margin-left: 0;
+            width: auto;
+        }
+    
+        .map {
+            margin: 0 auto;
+            width: 300px;
+            height: 300px;
+            margin-left: 150px;
+            background-size: 500px;
+            
+        }
+        .map:hover{
+            width:300px ;
+            height: 300px;
+            box-shadow: none;
+        }
+    
+        .district {
+            margin-left: 0;
+            width: auto;
+        }
+        .sun{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-left: 20px;
+        }
+        
+        .menuber {
+            display: none; 
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 40px;
+            right: 10px;
+            width: 80px;
+            
+
+            
+           
+        }
+        .menuber li{
+            margin-top: 0;
+            margin-bottom: 2px;
+            transition: .5s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 69px;
+            width: 147px;
+            height: 50px;
+          
+            border-radius: 6px;
+            background-color: rgb(255, 255, 255);
+        }
+        .menuber li:hover{
+            background-color: rgb(58, 235, 22);
+            
+        }
+        .menuber li a{
+            width: 150px;
+            height: 50px;
+            font-weight: bold;
+        }
+        .menuber li a:hover{
+            color: rgb(0, 0, 0);
+
+        }
+    
+        .menuber.active {
+           
+            
+            display: flex;/* Show the menu when active */
+        }
+    
+        .toggle-menu {
+            display: block; /* Show the toggle button for smaller screens */
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            font-size: 24px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+    }
+    
+    .toggle-menu:hover {
+        color: #000000;
+    }
+
+</style>
+<body>
+    <header>
+        <div class="logo">
+            <h4>SMART <b>CITY</b></h3>
+          </div>
+          <button class="toggle-menu">&#9776;</button>
+          <ul class="menuber active">
+        <li><a href="http://127.0.0.1:5500/smartmainhome.html">HOME</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">SERVICE</a></li>
+        <li><a href="">CONTACT</a></li>
+        <li><a href="">EXPLORE</a></li>
+        </ul>
+        <div class="serch">
+            <input type="search" placeholder="search" title="search">
+            <button title="search"><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEU
+                gAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAd5JREFUSEu11cvLTW
+                EUx/HPGxnIpSiXiZAwcIuSAQpFL2XqUgxIURhQBv4AMiEhDCgk5Q+Q0VsImSAl
+                opTIgFwi9+uz6nl1HO/e5xnssya7zn7O+j5rrd9v7R5djp4u51cHmIB1WInZ+S
+                J3cAkX8LzkcgMBRuAcVtck+I2L2IRPdaB2wFDcwgx8xUkcxpOcZDJ2YQuG5LOL8
+                L0K0g44iw14hhV4UPHHWbicLjAeB7G7BDAT9/Aj9Xk+ot91sRhX8A2T8GKgw60V
+                HMF2HMWOkgHiPNYnyF7s7wR4jCm5//cLAUvQh2vpGRX9F60VfEQMeRB+FQJGpWpf
+                4w1GdwK8x3AMQ8BKIs5+wCuM6QS4
+                mw01L3ngdkn2pKQFSW03c5uWdQIcSKbZgxPYVgg4kzyyMbUnBLKzE2AqHuJnoUzD
+                YFdz0sqq2412Ktv/KZYnCT6qqGRONtrY7PatJUaLM62r4guO41B2dryPKmNVbMbg
+                nDRmEK6PYdfKtP/lyGygVTVzeJd20b7U0rWYm12/FPH7P1G3ridml/Yids/nrK4b
+                OIa3CB+E0WKdhwpDSeGJv9HEBycg1zEdsQ0W4mU/oQlA5AqThaKm5fmcbhoQ+cal
+                9b4mfz8abVGtJ5tqUSWk64A/OxFWGSrrSC8AAAAASUVORK5CYII="/></a></button>
+        </div>
+    </header>
+
+   <div class="container">
+    <div class="sun"></div>
+    <div class="cont2">
+    <div class="map"></div>
+    <div class="text">
+        <p class="descript"><b>Khulna Division</b> (Bengali: খুলনা বিভাগ) is the second largest of the eight divisions of Bangladesh. It has an area of 22,285 km2 (8,604 sq mi) and a population of 17,416,645 at the 2022 Bangladesh census (preliminary returns). Its headquarters and largest city is Khulna city in Khulna District </p>
+    </div>
+    <div class="district">
+        <label for="anything">The ten District of Dhaka Division -> </label>
+        <ul> 
+        <li><a href="#">KHULNA</a></li>
+        <li><a href="#">JASSORE</a></li>
+        <li><a href="#">BAGHERHAT</a></li>
+        <li><a href="#">SHATKHIRA</a></li>
+        <li><a href="#">NORAIL</a></li>
+        <li><a href="#">MAGURA</a></li>
+        <li><a href="#">KUSTIA</a></li>
+        <li><a href="#">MEHERPUR</a></li>
+        <li><a href="#">CUADNGA</a></li>
+        <li><a href="#">JHINAIDAHA</a></li>
+       
+        </ul>
+    </div>
+</div>
+   </div>  
+   <script>
+    document.querySelector('.toggle-menu').addEventListener('click', function () {
+    document.querySelector('.menuber').classList.toggle('active');
+});
+   </script>  
+</body>
+</html>

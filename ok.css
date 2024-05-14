@@ -1,0 +1,22 @@
+.ok2{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.ok1{
+  margin-top: 10vh;
+    width: 100%;
+    height: 70vh;
+    background-color: yellow;
+}
+ok1::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(29, 29, 29);
+    
+}
